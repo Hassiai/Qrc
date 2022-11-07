@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background: hsl(212, 45%, 89%);
+    margin: 0;
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+img {
+    max-width: 100%;
+    border-radius: 0.75em;
+}
+
+.container {
+    background: hsl(0, 0%, 100%);
+    padding: 1em;
+    display: block;
+    border-radius: .75em;
+}
+
+.cont_text {
+    width: 250px;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+
+}
+
+span {
+    font-size: 1.3rem;
+    font-family: 'Outfit', sans-serif;
+    text-align: justify;
+    font-weight: 700;
+
+}
